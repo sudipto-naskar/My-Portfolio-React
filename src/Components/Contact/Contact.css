@@ -3,11 +3,10 @@
 .container {
     position: relative;
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5vw;
     left: -50px;
 
 }
@@ -72,10 +71,9 @@
 }
 
 .third-text {
-    font-size: 25px;
+    font-size: 35px;
     position: relative;
     color: var(--orange);
-    top: 5px;
     left: 53px;
 
 }

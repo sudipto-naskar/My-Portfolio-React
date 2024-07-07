@@ -1,9 +1,9 @@
 .n-wrapper {
-    height: 10vh;
     display: flex;
     justify-content: space-between;
     z-index: 99;
     position: relative;
+    align-items: center;
 }
 
 .n-left {
@@ -20,14 +20,18 @@
 
 .n-right {
     display: flex;
-    flex: 1;
+    flex: 1 1;
     align-items: center;
     justify-content: center;
     font-weight: 400;
     position: fixed;
     right: 4rem;
     z-index: 1;
-    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    backdrop-filter: blur(20px);
+    width: 100%;
+    justify-content: flex-end;
+
 }
 
 /* .n-list{

@@ -3,17 +3,17 @@ import './Intro.css'
 import Github from '../../img/github.png';
 import Linkedin from '../../img/linkedin.png';
 import Instagram from '../../img/instagram.png';
-import Vector1 from '../../img/Vector1.png'
-import Vector2 from '../../img/Vector2.png'
-import boy from '../../img/boy.png'
-import thumbsup from '../../img/thumbup.png'
-import Crown from '../../img/crown.png'
-import glassesimoji from '../../img/glassesimoji.png'
+import Vector1 from '../../img/Vector1.png';
+import Vector2 from '../../img/Vector2.png';
+// import Pic from '../../img/My Pic.png';
+import thumbsup from '../../img/thumbup.png';
+import Crown from '../../img/crown.png';
+import glassesimoji from '../../img/glassesimoji.png';
 import FloatingDiv from '../FloatingDiv/FloatingDiv';
 import { themeContext } from '../../Context';
 import { useContext } from "react";
-import {motion} from 'framer-motion'
-import {Link} from 'react-scroll'
+import { motion } from 'framer-motion';
+import { Link } from 'react-scroll';
 
 
 const Intro = () => {
@@ -36,13 +36,13 @@ const Intro = () => {
             <button className='button i-button'>Hire Me</button>
             </Link>
             <div className='i-icons'>
-                <a href='https://github.com/sudipto-naskar'>
+                <a href='https://github.com/sudipto-naskar' target='_blank' rel="noopener noreferrer" title='Follow Me on Github'>
                 <img src={Github} alt="" />
                 </a>
-                <a href='https://www.linkedin.com/in/sudipto-naskar/'>
+                <a href='https://www.linkedin.com/in/sudipto-naskar/' target='_blank' rel="noopener noreferrer" title='Follow Me on Linkedin'>
                 <img src={Linkedin} alt="" />
                 </a>
-                <a href='https://github.com/sudipto-naskar'>
+                <a href='https://github.com/sudipto-naskar' target='_blank' rel="noopener noreferrer" title='Follow Me on Instagram'>
                 <img src={Instagram} alt="" />
                 </a>
             </div>

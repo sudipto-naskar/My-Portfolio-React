@@ -42,13 +42,13 @@ export const Contact = () => {
                         <div className="social-links">
                             <span className="secnd-text">Connect With Me:</span>
                             <div className="social-media">
-                                <a href='https://github.com/sudipto-naskar'>
+                                <a href='https://github.com/sudipto-naskar' target='_blank' rel="noopener noreferrer" title='Follow Me on Github'>
                                     <Github color='var(--orange)' size='2.4rem' />
                                 </a>
-                                <a href='https://www.linkedin.com/in/sudipto-naskar/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bda%2BDn9UdTryXFEGcpBY6iw%3D%3D'>
+                                <a href='https://www.linkedin.com/in/sudipto-naskar/' target='_blank' rel="noopener noreferrer" title='Follow Me on Linkedin'>
                                     <Linkedin color='var(--orange)' size='2.4rem' />
                                 </a>
-                                <a href='https://github.com/sudipto-naskar'>
+                                <a href='https://github.com/sudipto-naskar' target='_blank' rel="noopener noreferrer" title='Follow Me on Instagram'>
                                     <Insta color='var(--orange)' size='2.4rem' />
                                 </a>
                             </div>
