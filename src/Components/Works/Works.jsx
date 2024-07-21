@@ -54,9 +54,11 @@ const Works = () => {
               <img src={Fiverr} alt="" />
             </div>
           </a>
+          <a href="https://amazoncompany.netlify.app/">
           <div className="w-secCircle">
             <img src={Amazon} alt="" />
           </div>
+          </a>
           <div className="w-secCircle">
             <img src={Shopify} alt="" />
           </div>
