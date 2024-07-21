@@ -7,8 +7,8 @@ import Shopify from "../../img/Shopify.png";
 import Facebook from "../../img/Facebook.png";
 import { themeContext } from '../../Context';
 import { useContext } from "react";
-import { motion} from 'framer-motion';
-import {Link} from 'react-scroll'
+import { motion } from 'framer-motion';
+import { Link } from 'react-scroll'
 
 const Works = () => {
 
@@ -19,7 +19,7 @@ const Works = () => {
   return (
     <div className='works'>
       <div className="awesome">
-        <span style={{color: darkMode? 'white': ''}}>Works for All these</span>
+        <span style={{ color: darkMode ? 'white' : '' }}>Works for All these</span>
         <span>Brands & Clients</span>
         <spane>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, atque corrupti.
           <br /> corrupti, veniam facere voluptatibus error fugit.
@@ -29,7 +29,7 @@ const Works = () => {
           corrupti, veniam facere voluptatibus error fugit.
         </spane>
         <Link spy={true} to='Contact' smooth={true}>
-        <button className="button s-button">Hire Me</button>
+          <button className="button s-button">Hire Me</button>
         </Link>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
@@ -37,19 +37,23 @@ const Works = () => {
       {/*right side*/}
 
       <div className="w-right">
-        <motion.div 
-        initial={{ rotate : 50 }}
-        whileInView={{ rotate : 0 }}
-        viewport={{margin : '-40px'}}
-        transition={{duration : 3.5, type : 'spring'}}
-        
-        className="w-mainCircle">
+        <motion.div
+          initial={{ rotate: 50 }}
+          whileInView={{ rotate: 0 }}
+          viewport={{ margin: '-40px' }}
+          transition={{ duration: 3.5, type: 'spring' }}
+
+          className="w-mainCircle">
+            <a href="https://www.upwork.com/freelancers/~01187370dc8ddfc828">
           <div className="w-secCircle">
             <img src={Upwork} alt="" />
           </div>
-          <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
-          </div>
+          </a>
+          <a href="https://www.fiverr.com/sudipto_123?public_mode=true" target='_blank'>
+            <div className="w-secCircle">
+              <img src={Fiverr} alt="" />
+            </div>
+          </a>
           <div className="w-secCircle">
             <img src={Amazon} alt="" />
           </div>

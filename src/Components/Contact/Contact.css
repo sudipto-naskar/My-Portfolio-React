@@ -85,11 +85,12 @@ form {
 }
 
 form span{
-    color: #fff;
+    color: var(--orange);
     bottom: 18px;
     position: absolute;
     left: 40rem;
     font-size: 1.1rem;
+    backdrop-filter: blur(50px);
 }
 
 .input-box {
