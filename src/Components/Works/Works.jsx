@@ -44,7 +44,7 @@ const Works = () => {
           transition={{ duration: 3.5, type: 'spring' }}
 
           className="w-mainCircle">
-            <a href="https://www.upwork.com/freelancers/~01187370dc8ddfc828">
+            <a href="https://www.upwork.com/freelancers/~01187370dc8ddfc828" target='_blank'>
           <div className="w-secCircle">
             <img src={Upwork} alt="" />
           </div>
@@ -54,17 +54,21 @@ const Works = () => {
               <img src={Fiverr} alt="" />
             </div>
           </a>
-          <a href="https://amazoncompany.netlify.app/">
+          <a href="https://amazoncompany.netlify.app/" target='_blank'>
           <div className="w-secCircle">
             <img src={Amazon} alt="" />
           </div>
           </a>
+          <a href="" target='_blank'>
           <div className="w-secCircle">
             <img src={Shopify} alt="" />
           </div>
+          </a>
+          <a href="" target='_blank'>
           <div className="w-secCircle">
             <img src={Facebook} alt="" />
           </div>
+          </a>
         </motion.div>
 
         {/* background circles*/}
