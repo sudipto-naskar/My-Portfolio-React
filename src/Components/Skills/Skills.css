@@ -143,10 +143,15 @@
     transition: 0.8s ease;
 }
 
+.mobile-skillcard{
+    display: none;
+}
+
 @media screen and (max-width: 720px){
     .skills{
-        margin-top: 120rem;
-        margin-bottom: 95rem;
+        /* margin-top: 10rem; */
+        margin-bottom: 20rem;
+        height: 30vh;
     }
 
     .heading{
@@ -156,6 +161,22 @@
     .heading span:nth-of-type(1){
         font-size: 2.3rem;
         margin-right: 16px;
+        
+    }
+/* 
+    .cs{
+        display: none;
+    } */
+
+    .cs{
+        transform: scale(0.42);
+        display: grid;
+        height: 100%;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        /* background-color: #153c98; */
+        padding: 25px;
+        width: 800px;
+        margin-top: -15px;
     }
 }
 

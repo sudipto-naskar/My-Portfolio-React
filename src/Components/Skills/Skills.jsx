@@ -1,6 +1,8 @@
 import React from 'react'
 import './Skills.css'
+
 import CardSkills from '../Skills-Card/skillcard'
+
 import HTMLLOGO from '../../img/png_logos/html.png'
 import CSSLOGO from '../../img/png_logos/css.png'
 import JSLOGO from '../../img/png_logos/js.png'
@@ -17,10 +19,8 @@ import PYTHONLOGO from '../../img/png_logos/python.png'
 
 import { themeContext } from '../../Context';
 import { useContext } from "react";
-import { motion, spring } from 'framer-motion';
 
 function Skills() {
-    const transition = { duration: 1, type: spring }
 
     const theme = useContext(themeContext);
 
@@ -36,7 +36,7 @@ function Skills() {
             </div>
             <div className='cs'>
                 <div className='hovred'>
-                    <CardSkills 
+                    <CardSkills
                         image={HTMLLOGO}
                         hovertitle={'HTML'}
                         hoverdetail={'loremipsumnjkdhkbvkjsvljnljsdvnjsvbkhkbhklkdrgakencbsdjkmcuoylkdtjnsvlsvhksdv svlknvj  nekchbeckeclkcn vnwjkv'} />
@@ -130,12 +130,13 @@ function Skills() {
                     <CardSkills
                         image={PYTHONLOGO}
                         hovertitle={'PYTHON'}
-                        hoverdetail={'loremipsumnjkdhkbvkjsvljnljsdvnjsvbkhkbhklkdrgakencbsdjkmcuoylkdtjnsvlsvhksdv svlknvj  nekchbeckeclkcn vnwjkv'}
+                        hoverdetail={'loremipsumnjkdhkbvkjsvljnljsdvnjsvbkhkbhklksdv svlknvj  nekchbeckeclkcn vnwjkv'}
                     />
                 </div>
             </div>
 
-        </div>
+            </div>
+
     )
 }
 

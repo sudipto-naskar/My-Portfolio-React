@@ -58,3 +58,10 @@
 .skill-card:hover .card-body{
     right: 0;
 }
+
+
+@media screen and (max-width: 720px){
+    .skill-card:hover .card-body{
+        display: none;
+    }
+}
