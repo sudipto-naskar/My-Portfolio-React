@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="f-content">
       <div className="f-icons">
         
-          <a href="https://github.com/sudipto-naskar" target="_blank" rel="noopener noreferrer" title='Follow Me on Linkedin'>
+          <a href="https://www.linkedin.com/in/sudipto-naskar/" target="_blank" rel="noopener noreferrer" title='Follow Me on Linkedin'>
             <Linkedin color="white" size={"2.5rem"} />
           </a>
           <a href="https://github.com/sudipto-naskar" target='_blank' rel="noopener noreferrer" title='Follow Me on Github'>

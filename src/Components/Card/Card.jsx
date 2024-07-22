@@ -12,4 +12,4 @@ const Card = ({emoji, heading, detail}) => {
   )
 }
 
-export default Card
+export default Card;
