@@ -19,7 +19,7 @@ const Footer = () => {
    }, []);
 
   return (
-    <div className="footer" data-aos='fade-up' data-aos-delay='350'>
+    <div className="footer" data-aos='fade-up' data-aos-delay='500'>
       <img src={Wave} alt="" style={{ width: "100%", height:"23rem" }} />
       <div className="f-content">
       <div className="f-icons">
@@ -35,7 +35,7 @@ const Footer = () => {
           </a>
 
         </div>
-        <span> &copy; {new Date().getFullYear()}; All Rights Reserved | Developed by <br /><p>SUDIPTO NASKAR</p></span>
+        <span> &copy; {new Date().getFullYear()}; All Rights Reserved | Developed by <br /><p><b>SUDIPTO NASKAR</b></p></span>
       </div>
     </div>
   );

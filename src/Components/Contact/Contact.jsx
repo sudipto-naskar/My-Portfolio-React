@@ -79,15 +79,15 @@ export const Contact = () => {
                 <label htmlFor="">Name</label>
               </div>
               <div className="input-box">
-                <input type="text" className="user" name="user_email" required />
+                <input type="text" className="user" name="user_email" required autoFocus />
                 <label htmlFor="">Email</label>
               </div>
               <div className="input-box">
-                <input type="tel" className="user" required />
+                <input type="tel" className="user" required autoFocus/>
                 <label htmlFor="">Phone</label>
               </div>
               <div className="input-box">
-                <textarea name="message" className="user" required cols="30" rows="6"></textarea>
+                <textarea name="message" className="user" cols="30" rows="6"  required autoFocus></textarea>
                 <label htmlFor="">Message</label>
               </div>
               <input type="submit" className="btn" value="Send" />

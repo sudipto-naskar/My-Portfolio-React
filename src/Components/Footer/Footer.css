@@ -18,9 +18,35 @@
   color: white;
 }
 
+.f-content span{
+  font-weight: 600;
+}
+
 .f-content span p{
   position: relative;
   left: 5.5rem;
+  animation: animate 15s infinite;
+}
+
+@keyframes animate{
+  0% {
+    color: var( --purple);
+  }
+  20% {
+    color: rgb(165, 60, 60);
+  }
+  40% {
+    color: yellow;
+  }
+  60% {
+    color: green;
+  }
+  80% {
+    color: blue;
+  }
+  100%{
+    color: brown;
+  }
 }
 
 .f-icons {
@@ -51,14 +77,19 @@
     width: 100%;
   }
 
-  .footer span{
-    transform: scale(1.3);
+  .f-content{
+    transform: scale(0.9);
+    margin-top: 5.5em;
+    gap: 1.8rem;
   }
 
-  .f-content{
-    transform: scale(0.6);
-    margin-top: 3rem;
-    gap: 3rem;
+  .footer span{
+    transform: scale(1);
+    text-align: center;
+  }
+
+  .footer span p{
+    left: 0;
   }
 
 }

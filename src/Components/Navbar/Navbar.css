@@ -28,10 +28,9 @@
     right: 4rem;
     z-index: 1;
     -webkit-backdrop-filter: blur(18px);
-    backdrop-filter: blur(22px);
+    backdrop-filter: blur(25px);
     width: 100%;
     justify-content: flex-end;
-
 }
 
 /* .n-list{
@@ -44,7 +43,7 @@
     gap: 2rem;
     margin-right: 4rem;
     cursor: pointer;
-    font-weight: 550;
+    font-weight: 600;
 
 }
 
@@ -52,7 +51,8 @@
     cursor: pointer;
     color: var(--orange);
     transform: scale(1.1);
-    transition: .5s ease;
+    transition: .7s ease;
+    text-decoration: underline;
 }
 
 .n-button {
