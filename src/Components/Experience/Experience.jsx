@@ -15,7 +15,7 @@ const Experience = () => {
 
 
   return (
-    <div className='experience' id='Experience' data-aos='zoom-in' data-aos-delay="200">
+    <div className='experience' id='Experience' data-aos='zoom-out' data-aos-delay="250">
         <div className='achievement'>
             <div className="circle">2+</div>
             <span>years</span>

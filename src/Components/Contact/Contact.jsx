@@ -48,7 +48,7 @@ export const Contact = () => {
   }, []);
 
   return (
-    <div className="contact-me" id="Contact" data-aos='zoom-in' data-aos-delay="200">
+    <div className="contact-me" id="Contact" data-aos='zoom-out' data-aos-delay="200">
       <div className="container">
         <div className="item">
           <div className="contact">
