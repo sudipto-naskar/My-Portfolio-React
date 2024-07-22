@@ -60,7 +60,7 @@ function Skills() {
                     />
                 </div>
 
-                <div className='hovyellow'data-aos='slide-left' data-aos-delay="100">
+                <div className='hovyellow' data-aos='slide-left' data-aos-delay="100">
                     <CardSkills
                         image={JSLOGO}
                         hovertitle={'JAVASCRIPT'}
@@ -68,7 +68,7 @@ function Skills() {
                     />
                 </div>
 
-                <div className='hovsky'>
+                <div className='hovsky' data-aos='slide-right' data-aos-delay="100">
                     <CardSkills
                         image={REACTLOGO}
                         hovertitle={'REACT JS'}
@@ -78,7 +78,7 @@ function Skills() {
 
                 <div className="blur s-blur4" style={{ background: "rgb(125 162 169 / 58%)" }}></div>
 
-                <div className='hovblack'>
+                <div className='hovblack' data-aos='slide-right' data-aos-delay="100">
                     <CardSkills
                         image={NEXTJSLOGO}
                         hovertitle={'NEXT JS'}
@@ -86,7 +86,7 @@ function Skills() {
                     />
                 </div>
 
-                <div className='hovlitegreen'>
+                <div className='hovlitegreen' data-aos='slide-left' data-aos-delay="100">
                     <CardSkills
                         image={NODEJSLOGO}
                         hovertitle={'NODE JS'}
@@ -94,7 +94,7 @@ function Skills() {
                     />
                 </div>
 
-                <div className='hovgrey'>
+                <div className='hovgrey' data-aos='slide-right' data-aos-delay="0">
                     <CardSkills
                         image={EXPRESSLOGO}
                         hovertitle={'EXPRESS JS'}
@@ -102,7 +102,7 @@ function Skills() {
                     />
                 </div>
 
-                <div className='hovgreen'>
+                <div className='hovgreen' data-aos='slide-right' data-aos-delay="0">
                     <CardSkills
                         image={MONGODBLOGO}
                         hovertitle={'MONGODB'}
@@ -112,7 +112,7 @@ function Skills() {
 
                 <div className="blur s-blur3" style={{ background: "rgb(161 100 198 / 46%)" }}></div>
 
-                <div className='hovlitered'>
+                <div className='hovlitered' data-aos='slide-left' data-aos-delay="0">
                     <CardSkills
                         image={GITLOGO}
                         hovertitle={'GIT/GITHUB'}

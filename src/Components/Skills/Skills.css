@@ -126,42 +126,42 @@
     box-shadow: rgba(195, 96, 25, 1.5) 0px 19px 38px, rgba(215, 113, 29, 0.22) 0px 15px 25px;
     border-radius: 30px;
     transition: 1s ease;
-    animation: animate 2s infinite;
+    animation: animatee 2s infinite;
 }
 
 .hovblue:hover {
     box-shadow: #497ffe7a 0px 19px 38px, #3669e0 0px 15px 25px;
     border-radius: 30px;
     transition: 1s ease;
-    animation: animate 2s infinite;
+    animation: animatee 2s infinite;
 }
 
 .hovyellow:hover {
     box-shadow: #d3bd2d 0px 19px 38px, #f5dd43 0px 15px 25px;
     border-radius: 30px;
     transition: 1s ease;
-    animation: animate 2s infinite;
+    animation: animatee 2s infinite;
 }
 
 .hovsky:hover {
     box-shadow: #47cef0 0px 19px 38px, #54d4f4 0px 15px 25px;
     border-radius: 30px;
     transition: 1s ease;
-    animation: animate 2s infinite;
+    animation: animatee 2s infinite;
 }
 
 .hovblack:hover {
     box-shadow: #454545b8 0px 19px 38px, #414141 0px 15px 25px;
     border-radius: 30px;
     transition: 1s ease;
-    animation: animate 2s infinite;
+    animation: animatee 2s infinite;
 }
 
 .hovlitegreen:hover {
     box-shadow: #6cc24a 0px 19px 38px, #6cc24a 0px 15px 25px;
     border-radius: 30px;
     transition: 1s ease;
-    animation: animate 2s infinite;
+    animation: animatee 2s infinite;
 }
 
 
@@ -169,47 +169,47 @@
     box-shadow: #41404062 0px 19px 38px, #0d0d0e85 0px 15px 25px;
     border-radius: 30px;
     transition: 1s ease;
-    animation: animate 2s infinite;
+    animation: animatee 2s infinite;
 }
 
 .hovgreen:hover {
     box-shadow: rgb(36 175 25) 0px 19px 38px, rgb(63, 160, 55) 0px 15px 25px;
     border-radius: 30px;
     transition: 1s ease;
-    animation: animate 2s infinite;
+    animation: animatee 2s infinite;
 }
 
 .hovlitered:hover {
     box-shadow: rgb(255 139 115 / 72%) 0px 19px 38px, rgb(241, 80, 47) 0px 15px 25px;
     border-radius: 30px;
     transition: 1s ease;
-    animation: animate 2s infinite;
+    animation: animatee 2s infinite;
 }
 
 .hovlitesky:hover {
     box-shadow: rgb(6, 182, 212) 0px 19px 38px, rgb(6, 182, 212) 0px 15px 25px;
     border-radius: 30px;
     transition: 1s ease;
-    animation: animate 2s infinite;
+    animation: animatee 2s infinite;
 }
 
 .hovviolet:hover {
     box-shadow: #563d7c 0px 22px 38px, #563d7c 0px 15px 25px;
     border-radius: 30px;
     transition: 1s ease;
-    animation: animate 2s infinite;
+    animation: animatee 2s infinite;
 }
 
 .hovblueyellow:hover {
     box-shadow: #306998 0px 22px 38px, #fec600d6 20px 30px 25px;
     border-radius: 30px;
     transition: 1s ease;
-    animation: animate 2s infinite;
+    animation: animatee 2s infinite;
 }
 
 /* for animation */
 
-@keyframes animate {
+@keyframes animatee {
 
     0%,
     100% {
