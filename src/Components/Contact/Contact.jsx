@@ -8,6 +8,11 @@ import Insta from '@iconscout/react-unicons/icons/uil-instagram';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 
+// AOS FOR ANIMATION
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react'
+
 export const Contact = () => {
   const form = useRef();
 
@@ -35,8 +40,15 @@ export const Contact = () => {
       );
   };
 
+  // AOS 
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
-    <div className="contact-me" id="Contact">
+    <div className="contact-me" id="Contact" data-aos='zoom-in' data-aos-delay="200">
       <div className="container">
         <div className="item">
           <div className="contact">

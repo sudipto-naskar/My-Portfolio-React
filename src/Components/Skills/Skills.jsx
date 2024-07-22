@@ -20,29 +20,39 @@ import PYTHONLOGO from '../../img/png_logos/python.png'
 import { themeContext } from '../../Context';
 import { useContext } from "react";
 
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react'
+
 function Skills() {
 
     const theme = useContext(themeContext);
 
     const darkMode = theme.state.darkMode;
 
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
+
 
     return (
-        <div className='skills' id='Skills'>
+        <div className='skills' id='Skills' data-aos='zoom-out' data-aos-delay="70">
 
-            <div className='heading'>
+            <div className='heading' >
                 <span style={{ color: darkMode ? 'white' : '' }}>My Dev</span>
                 <span>Skills</span>
             </div>
             <div className='cs'>
-                <div className='hovred'>
+                <div className='hovred' data-aos='slide-right' data-aos-delay="100">
                     <CardSkills
                         image={HTMLLOGO}
                         hovertitle={'HTML'}
                         hoverdetail={'loremipsumnjkdhkbvkjsvljnljsdvnjsvbkhkbhklkdrgakencbsdjkmcuoylkdtjnsvlsvhksdv svlknvj  nekchbeckeclkcn vnwjkv'} />
                 </div>
 
-                <div className='hovblue'>
+                <div className='hovblue' data-aos='slide-right' data-aos-delay="100">
                     <CardSkills
                         image={CSSLOGO}
                         hovertitle={'CSS'}
@@ -50,7 +60,7 @@ function Skills() {
                     />
                 </div>
 
-                <div className='hovyellow'>
+                <div className='hovyellow'data-aos='slide-left' data-aos-delay="100">
                     <CardSkills
                         image={JSLOGO}
                         hovertitle={'JAVASCRIPT'}

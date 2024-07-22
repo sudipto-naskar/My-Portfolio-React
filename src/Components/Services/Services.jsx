@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Services.css'
 import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
@@ -9,6 +9,9 @@ import { themeContext } from '../../Context';
 import { useContext } from "react";
 import { motion, spring } from 'framer-motion';
 
+// AOS
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 const Services = () => {
 
@@ -18,9 +21,14 @@ const Services = () => {
 
   const darkMode = theme.state.darkMode;
 
+  useEffect(()=>{
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
 
   return (
-    <div className="services" id='Services'>
+    <div className="services" id='Services'data-aos='zoom-out' data-aos-delay='200'>
 
       {/* left side */}
 

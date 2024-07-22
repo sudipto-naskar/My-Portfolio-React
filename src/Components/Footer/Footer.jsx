@@ -1,13 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Footer.css";
 import Wave from "../../img/wave.png";
 import Insta from "@iconscout/react-unicons/icons/uil-instagram";
 import Linkedin from "@iconscout/react-unicons/icons/uil-linkedin";
 import Gitub from "@iconscout/react-unicons/icons/uil-github";
 
+// AOS
+import AOS from 'aos';
+import "aos/dist/aos.css";
+
+
 const Footer = () => {
+
+  // AOS
+   useEffect(()=>{
+    AOS.init();
+    AOS.refresh();
+   }, []);
+
   return (
-    <div className="footer">
+    <div className="footer" data-aos='fade-up' data-aos-delay='350'>
       <img src={Wave} alt="" style={{ width: "100%", height:"23rem" }} />
       <div className="f-content">
       <div className="f-icons">

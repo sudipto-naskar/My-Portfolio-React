@@ -1,10 +1,10 @@
 import './Navbar.css'
-import React from 'react'
+import React, { useEffect } from 'react'
 import Toggle from '../Toggle/Toggle'
 import { Link } from 'react-scroll'
 
+
 const Navbar = () => {
-    
 
     return (
         <div className="n-wrapper" id='Navbar'>

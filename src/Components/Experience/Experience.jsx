@@ -1,9 +1,21 @@
 import React from 'react'
 import './Experience.css'
 
+import AOS from 'aos';
+import "aos/dist/aos.css";
+import { useEffect } from 'react'
+
 const Experience = () => {
+
+  // AOS
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
+
   return (
-    <div className='experience' id='Experience'>
+    <div className='experience' id='Experience' data-aos='zoom-in' data-aos-delay="200">
         <div className='achievement'>
             <div className="circle">2+</div>
             <span>years</span>

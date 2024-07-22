@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './Portfolio.css'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -17,14 +17,25 @@ import Dex from "../../img/Dex.jpg"
 import { themeContext } from '../../Context';
 import { useContext } from "react";
 
+// AOS
+import AOS from 'aos';
+import "aos/dist/aos.css";
+
 const Portfolio = () => {
 
     const theme = useContext(themeContext);
 
     const darkMode = theme.state.darkMode;
 
+      // AOS
+      useEffect(()=> {
+        AOS.init();
+        AOS.refresh();
+    }, []);
+
+
     return (
-        <div className="portfolio" id='Portfolio'>
+        <div className="portfolio" id='Portfolio' data-aos='zoom-out' data-aos-delay='100'>
             {/* heading */}
             <span style={{ color: darkMode ? 'white' : '' }}>Recent Projects</span>
             <span>Portfolio</span>

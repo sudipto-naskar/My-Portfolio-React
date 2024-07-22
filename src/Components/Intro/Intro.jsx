@@ -11,9 +11,14 @@ import Crown from '../../img/crown.png';
 import glassesimoji from '../../img/glassesimoji.png';
 import FloatingDiv from '../FloatingDiv/FloatingDiv';
 import { themeContext } from '../../Context';
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
+
+// AOS ANIMATION
+
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 
 const Intro = () => {
@@ -24,8 +29,13 @@ const Intro = () => {
 
     const darkMode = theme.state.darkMode;
 
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
+
   return (
-    <div className="intro">
+    <div className="intro" data-aos='zoom-in' data-aos-delay="300">
         <div className="i-left">
             <div className="i-name">
                 <span style={{color: darkMode? 'white': ''}}>Hi! I Am</span>

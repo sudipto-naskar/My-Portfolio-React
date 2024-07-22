@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect}from 'react'
 import './Works.css'
 import Upwork from "../../img/Upwork.png";
 import Fiverr from "../../img/fiverr.png";
@@ -10,14 +10,25 @@ import { useContext } from "react";
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll'
 
+// AOS
+import AOS from 'aos';
+import "aos/dist/aos.css";
+
 const Works = () => {
 
   const theme = useContext(themeContext);
 
   const darkMode = theme.state.darkMode;
 
+  // AOS
+  useEffect(()=>{
+    AOS.init();
+    AOS.refresh();
+  }, []);
+  
+
   return (
-    <div className='works'>
+    <div className='works' data-aos='zoom-out' data-aos-delay='200'>
       <div className="awesome">
         <span style={{ color: darkMode ? 'white' : '' }}>Works for All these</span>
         <span>Brands & Clients</span>
