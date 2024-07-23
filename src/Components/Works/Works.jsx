@@ -3,8 +3,8 @@ import './Works.css'
 import Upwork from "../../img/Upwork.png";
 import Fiverr from "../../img/fiverr.png";
 import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+import Coffee from "../../img/coffee-shop-logo.png";
+import Travel from "../../img/travel.png";
 import { themeContext } from '../../Context';
 import { useContext } from "react";
 import { motion } from 'framer-motion';
@@ -70,14 +70,14 @@ const Works = () => {
             <img src={Amazon} alt="" />
           </div>
           </a>
-          <a href="" target='_blank'>
+          <a href="https://coffeetoday.netlify.app/" target='_blank'>
           <div className="w-secCircle">
-            <img src={Shopify} alt="" />
+            <img src={Coffee} alt=""/>
           </div>
           </a>
-          <a href="" target='_blank'>
+          <a href="https://triptoday.netlify.app/" target='_blank'>
           <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+            <img src={Travel} alt="" />
           </div>
           </a>
         </motion.div>
