@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c518c924.css",
-    "main.js": "/static/js/main.426c8de5.js",
+    "main.css": "/static/css/main.1517ff6b.css",
+    "main.js": "/static/js/main.a7b9b9b1.js",
     "static/media/Dex.jpg": "/static/media/Dex.373233ff16d5c00b9e9f.jpg",
     "static/media/ecommerce.png": "/static/media/ecommerce.522da76635d52117102b.png",
     "static/media/musicapp.png": "/static/media/musicapp.f1c301f91904ef5f9249.png",
@@ -12,7 +12,9 @@
     "static/media/css.png": "/static/media/css.8122e25b62cc4a4de00e.png",
     "static/media/bootstrap.png": "/static/media/bootstrap.3b203fcffcafd73b91fa.png",
     "static/media/express.png": "/static/media/express.ef378799e16e0b4dec33.png",
+    "static/media/coffee-shop-logo.png": "/static/media/coffee-shop-logo.999fdb848a9e11df4221.png",
     "static/media/thumbup.png": "/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/travel.png": "/static/media/travel.017ccffd1a3775597f12.png",
     "static/media/humble.png": "/static/media/humble.c8b32b53675e68978981.png",
     "static/media/heartemoji.png": "/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
     "static/media/wave.png": "/static/media/wave.fdfef4069ad90f610990.png",
@@ -21,11 +23,11 @@
     "static/media/glasses.png": "/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "static/media/weather.jpeg": "/static/media/weather.3aedcda4fbad09c1cbf7.jpeg",
     "index.html": "/index.html",
-    "main.c518c924.css.map": "/static/css/main.c518c924.css.map",
-    "main.426c8de5.js.map": "/static/js/main.426c8de5.js.map"
+    "main.1517ff6b.css.map": "/static/css/main.1517ff6b.css.map",
+    "main.a7b9b9b1.js.map": "/static/js/main.a7b9b9b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.c518c924.css",
-    "static/js/main.426c8de5.js"
+    "static/css/main.1517ff6b.css",
+    "static/js/main.a7b9b9b1.js"
   ]
 }

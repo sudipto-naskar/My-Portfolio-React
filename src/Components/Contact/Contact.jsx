@@ -7,6 +7,7 @@ import Linkedin from '@iconscout/react-unicons/icons/uil-linkedin';
 import Insta from '@iconscout/react-unicons/icons/uil-instagram';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
+import { IoIosSend } from "react-icons/io";
 
 // AOS FOR ANIMATION
 import AOS from "aos";
@@ -46,6 +47,7 @@ export const Contact = () => {
     AOS.init();
     AOS.refresh();
   }, []);
+
 
   return (
     <div className="contact-me" id="Contact" data-aos='zoom-out' data-aos-delay="200">
@@ -90,7 +92,14 @@ export const Contact = () => {
                 <textarea name="message" className="user" cols="30" rows="6" required></textarea>
                 <label htmlFor="">Message</label>
               </div>
-              <input type="submit" className="btn" value="Send" />
+              {/* <div>
+              <input type="submit" className="btn" value="Send"/>
+              <IoIosSend />
+              </div> */}
+              <button className='btn'>
+                Send&nbsp;
+                <IoIosSend />
+              </button>
               {done && (
                 <span>
                   <FontAwesomeIcon icon={faCheckCircle} style={{ fontSize: '1.12rem' }} /> Thanks for contacting me!

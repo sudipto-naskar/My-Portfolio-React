@@ -94,7 +94,7 @@ function Skills() {
                     />
                 </div>
 
-                <div className='hovgrey' data-aos='slide-right' data-aos-delay="0">
+                <div className='hovgrey'>
                     <CardSkills
                         image={EXPRESSLOGO}
                         hovertitle={'EXPRESS JS'}
@@ -102,7 +102,7 @@ function Skills() {
                     />
                 </div>
 
-                <div className='hovgreen' data-aos='slide-right' data-aos-delay="0">
+                <div className='hovgreen'>
                     <CardSkills
                         image={MONGODBLOGO}
                         hovertitle={'MONGODB'}
@@ -112,7 +112,7 @@ function Skills() {
 
                 <div className="blur s-blur3" style={{ background: "rgb(161 100 198 / 46%)" }}></div>
 
-                <div className='hovlitered' data-aos='slide-left' data-aos-delay="0">
+                <div className='hovlitered'>
                     <CardSkills
                         image={GITLOGO}
                         hovertitle={'GIT/GITHUB'}

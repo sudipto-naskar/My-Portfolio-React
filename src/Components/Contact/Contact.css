@@ -146,17 +146,19 @@ form span{
     outline: none;
     border: none;
     border-radius: 45px;
-    width: 21%;
+    width: 23%;
     font-size: 20px;
     color: var(--black);
-    cursor: pointer;
+    cursor: grabbing;
     font-weight: 600;
     transition: all .2s ease;
+    text-align: center;
 }
 
 .btn:active{
     transform: scale(0.75);
 }
+
 
 @media screen and (max-width:850px) {
     .item {
@@ -180,7 +182,7 @@ form span{
         display: flex;
     }
     .btn {
-        width: 20%;
+        width: 36%;
         height: 40px;
         font-size: 20px;
         top: 60px;
@@ -220,7 +222,7 @@ form span{
     }
 
     .btn {
-        width: 20%;
+        width: 40%;
         height: 35px;
         font-size: 20px;
         top: 60px;
@@ -228,5 +230,12 @@ form span{
 
     .btn:active{
         transform: scale(0.80);
+    }
+
+    .ai{
+        position: absolute;
+    }
+    .btn:active .ai{
+        right: 10rem;
     }
 }
