@@ -74,8 +74,7 @@
     font-size: 35px;
     position: relative;
     color: var(--orange);
-    left: 53px;
-
+    left: 55px;
 }
 
 form {
@@ -146,10 +145,10 @@ form span{
     outline: none;
     border: none;
     border-radius: 45px;
-    width: 23%;
-    font-size: 20px;
+    width: 25%;
+    font-size: 21px;
     color: var(--black);
-    cursor: grabbing;
+    cursor: grab;
     font-weight: 600;
     transition: all .2s ease;
     text-align: center;
@@ -164,7 +163,6 @@ form span{
     .item {
         grid-template-columns: 1fr;
     }
-
 
     .contact {
         display: none;
@@ -182,7 +180,7 @@ form span{
         display: flex;
     }
     .btn {
-        width: 36%;
+        width: 35%;
         height: 40px;
         font-size: 20px;
         top: 60px;
@@ -222,7 +220,7 @@ form span{
     }
 
     .btn {
-        width: 40%;
+        width: 30%;
         height: 35px;
         font-size: 20px;
         top: 60px;
@@ -230,12 +228,5 @@ form span{
 
     .btn:active{
         transform: scale(0.80);
-    }
-
-    .ai{
-        position: absolute;
-    }
-    .btn:active .ai{
-        right: 10rem;
     }
 }
